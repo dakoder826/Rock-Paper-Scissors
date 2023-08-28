@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Choose:</h1>
+  <button class="move-button" onclick="playRockPaperScissors('rock');">
+    <img src="images/rock.png" class="move-icon">
+  </button>
+  <button class="move-button" onclick="playRockPaperScissors('paper');">
+    <img src="images/paper.png" class="move-icon" >
+  </button>
+  <button class="move-button" onclick="playRockPaperScissors('scissors');">
+    <img src="images/scissors.png" class="move-icon">
+  </button>
+
+  <p class="result"></p>
+  <p class="moves">
+    You 
+    <img class="player-move" src="">
+    <img class="computer-move" src=""> 
+    Computer 
+  </p>
+  <p class="score"></p>
+  <button class="reset-button" onclick="resetScore()">Reset Score</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
